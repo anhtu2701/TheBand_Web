@@ -4,3 +4,59 @@
     box-sizing: border-box;
 }
 
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+
+}
+
+header {
+    height: 46.5px;
+    background-color: #000;
+}
+
+nav {
+
+}
+
+nav li {
+    display: inline-block;
+    position: relative;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #fff;
+    line-height: 46.5px;
+    padding: 0 24px;
+    display: inline-block;
+}
+
+nav li:hover a {
+    background-color: #ccc;
+    color: #000;
+    
+}
+
+nav .subnav {
+    /* display: none; */
+    position: absolute;
+    background-color: #fff;
+    left: 0
+    top: 100%;
+}
+
+#slider {
+    min-height: 500px;
+    background-color: gray;
+}
+
+main {
+
+}
+
+footer {
+    
+}
