@@ -8,17 +8,26 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#container {
-
-}
 
 header {
     height: 46.5px;
     background-color: #000;
+    display: flex;
+    justify-content: space-between;
 }
 
-nav {
+header .search-btn {
+    padding: 0 23px;
+    line-height: 46.5px;
+}
 
+header .search-btn:hover {
+    background-color: #f44336!important;
+    cursor: pointer;
+}
+
+header .search-icon {
+    color: #fff;
 }
 
 nav li {
